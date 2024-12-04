@@ -19,4 +19,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically generates this token
-          publish_dir: ./public  # Replace './public' with your output folder
+          publish_dir: . # Replace './public' with your output folder
